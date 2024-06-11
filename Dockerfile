@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-ARG SPARK_IMAGE=spark:3.5.0
+ARG SPARK_IMAGE=spark:3.3.0
 
 FROM golang:1.22-alpine as builder
 
